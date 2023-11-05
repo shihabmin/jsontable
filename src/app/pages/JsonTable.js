@@ -4,7 +4,12 @@ import { useState } from "react";
 import JsonPathPopup from "./JsonPathPopup";
 
 const JsonTable = () => {
-  const [showPathPopup, setShowPathPopup] = useState(true);
+  const [showPathPopup, setShowPathPopup] = useState(false);
+
+  const showPathPopupFn = (id) => {
+    setShowPathPopup(true)
+  }
+
   return (
     <div className="overflow-x-auto m-4">
       {showPathPopup && (
@@ -29,7 +34,7 @@ const JsonTable = () => {
           <tr>
             <th>1</th>
             <td>Cy Ganderton</td>
-            <td>
+            <td id="1" onClick={()=> showPathPopupFn("1")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -52,7 +57,7 @@ const JsonTable = () => {
           <tr>
             <th>2</th>
             <td>Hart Hagerty</td>
-            <td>
+            <td id="2" onClick={()=> showPathPopupFn("2")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -75,7 +80,7 @@ const JsonTable = () => {
           <tr>
             <th>3</th>
             <td>Brice Swyre</td>
-            <td>
+            <td id="3" onClick={()=> showPathPopupFn("3")}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
