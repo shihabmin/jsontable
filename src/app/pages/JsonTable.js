@@ -1,6 +1,18 @@
+"use client";
+
+import { useState } from "react";
+import JsonPathPopup from "./JsonPathPopup";
+
 const JsonTable = () => {
+  const [showPathPopup, setShowPathPopup] = useState(true);
   return (
     <div className="overflow-x-auto m-4">
+      {showPathPopup && (
+        <JsonPathPopup
+          showPathPopup={showPathPopup}
+          setShowPathPopup={setShowPathPopup}
+        />
+      )}
       <table className="table">
         {/* head */}
         <thead>
