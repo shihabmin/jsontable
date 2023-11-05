@@ -6,10 +6,10 @@ const JsonTable = () => {
         <thead>
           <tr>
             <th></th>
-            <th>Name</th>
+            <th>Input Path</th>
             <th></th>
-            <th>Job</th>
-            <th>Favorite Color</th>
+            <th>Condition Value</th>
+            <th>Result</th>
           </tr>
         </thead>
         <tbody>
