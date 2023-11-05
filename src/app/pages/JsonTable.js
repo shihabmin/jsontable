@@ -7,6 +7,7 @@ const JsonTable = () => {
           <tr>
             <th></th>
             <th>Name</th>
+            <th></th>
             <th>Job</th>
             <th>Favorite Color</th>
           </tr>
@@ -16,6 +17,22 @@ const JsonTable = () => {
           <tr>
             <th>1</th>
             <td>Cy Ganderton</td>
+            <td>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-4 h-6 cursor-pointer rounded-md bg-gray-100"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+                />
+              </svg>
+            </td>
             <td>Quality Control Specialist</td>
             <td>Blue</td>
           </tr>
@@ -23,6 +40,22 @@ const JsonTable = () => {
           <tr>
             <th>2</th>
             <td>Hart Hagerty</td>
+            <td>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-4 h-6 cursor-pointer rounded-md bg-gray-100"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+                />
+              </svg>
+            </td>
             <td>Desktop Support Technician</td>
             <td>Purple</td>
           </tr>
@@ -30,6 +63,22 @@ const JsonTable = () => {
           <tr>
             <th>3</th>
             <td>Brice Swyre</td>
+            <td>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-4 h-6 cursor-pointer rounded-md bg-gray-100"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+                />
+              </svg>
+            </td>
             <td>Tax Accountant</td>
             <td>Red</td>
           </tr>
